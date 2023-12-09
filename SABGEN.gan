@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="SABGEN" company="Master GIS - Upravljanje GIS projektima" webLink="http://" view-date="2024-02-21" view-index="0" gantt-divider-location="536" resource-divider-location="300" version="3.2.3247" locale="en_US">
+    <description/>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="Name" width="287" order="0"/>
+        <field id="tpd4" name="Begin date" width="133" order="1"/>
+        <field id="tpd5" name="End date" width="115" order="2"/>
+        <option id="filter.completedTasks" value="false"/>
+        <timeline>
+            <![CDATA[9,12,2,8,7,1,11]]>
+        </timeline>
+        <option id="color.recent">
+            <![CDATA[#99ffff #ffffff #ff6633 #ff6666]]>
+        </option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="SABGEN" color="#000000" meeting="false" start="2024-02-12" duration="31" complete="0" thirdDate="2024-02-12" thirdDate-constraint="1" expand="true">
+            <task id="5" name="Prikupljanje podataka" color="#ff6633" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2024-02-12" duration="11" complete="0" thirdDate="2024-01-26" thirdDate-constraint="0" expand="true">
+                <task id="1" name="Preuzimanje baze podataka o žrtvama genocida" color="#ff6666" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2024-02-12" duration="6" complete="0" thirdDate="2023-12-11" thirdDate-constraint="0" expand="true"/>
+                <task id="2" name="Izdvajanje podataka za teritoriju Grada Šapca" color="#ff6633" shape="1,0,1,0,0,1,0,1,1,0,1,0,0,1,0,1" meeting="false" start="2024-02-19" duration="6" complete="0" thirdDate="2023-12-11" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="6" name="Obrada podataka" color="#8cb6ce" meeting="false" start="2024-02-27" duration="10" complete="0" thirdDate="2024-01-26" thirdDate-constraint="0" expand="true">
+                <task id="7" name="Formiranje XLXS tabele sa podacima o žrtvama genocida" color="#8cb6ce" shape="0,1,1,1,1,0,0,0,1,0,0,0,1,0,0,0" meeting="false" start="2024-02-27" duration="3" complete="0" thirdDate="2024-01-26" thirdDate-constraint="0" expand="true"/>
+                <task id="8" name="Formiranje Shapefile-a sa podacima o broju žrtava genocida" color="#8cb6ce" shape="0,1,1,1,1,0,0,0,1,0,0,0,1,0,0,0" meeting="false" start="2024-02-29" duration="3" complete="0" thirdDate="2024-01-26" thirdDate-constraint="0" expand="true"/>
+                <task id="9" name="Formiranje Shapefile-a/ova sa lokacijama koncentracionih logora i mestima streljanja civila" color="#8cb6ce" shape="0,1,1,1,1,0,0,0,1,0,0,0,1,0,0,0" meeting="false" start="2024-03-04" duration="6" complete="0" thirdDate="2024-01-26" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="10" name="Završne aktivnosti" color="#99ffff" meeting="false" start="2024-03-12" duration="10" complete="0" thirdDate="2024-01-26" thirdDate-constraint="0" expand="true">
+                <task id="11" name="Izrada mape genocida na teritoriji Grada Šapca" color="#99ffff" shape="0,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0" meeting="false" start="2024-03-12" duration="9" complete="0" thirdDate="2024-01-26" thirdDate-constraint="0" expand="true"/>
+                <task id="12" name="Isporuka rezultata" color="#99ffff" shape="0,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0" meeting="false" start="2024-03-25" duration="1" complete="0" thirdDate="2024-01-26" thirdDate-constraint="0" expand="true"/>
+            </task>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
